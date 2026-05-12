@@ -20,7 +20,7 @@ public class myfirstscript : MonoBehaviour
     
         //TASK 2//
         //When your object’s x, y, or z value goes beyond a certain amount, move the object in the opposite direction.//
-        if (transform.position.x > 5f) move = -0.1f;
+        if (transform.position.x > 5f) move = -0.01f;
         if (transform.position.x < -5f) move = 0.01f; 
     
         //TASK 3//
